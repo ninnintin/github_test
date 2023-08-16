@@ -21,6 +21,7 @@ onMounted(async () => {
     streamReports.value = response.data; // Assuming the API response is an array of objects
   } catch (error) {
     console.error('Error:', error);
+    // it's error bro thanks 
   }
 });
 </script>
